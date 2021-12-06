@@ -1,7 +1,7 @@
 function greeting(name){
     console.log(`Hello ${name}! How are you?`);
 }
-
+greeting(`Anna`);
 
 const Lecture3 = {
     dataType: `string, number, boolean`,
