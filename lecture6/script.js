@@ -23,7 +23,7 @@ function getMinValue(value1, value2, ...value_n){
     let result = console.log(Math.min(value1, value2, ...value_n));
     return result;
 }
-getMinValue(2, 1, 3, -6, -11, 100, 892);
+getMinValue(3, 5,136,4,-5,-16);
 function joinObjects(obj1, obj2){
     let result = console.log(Object.assign(obj1, obj2));
     return result;
