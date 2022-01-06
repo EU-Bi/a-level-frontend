@@ -1,7 +1,9 @@
+// Where is the first task??
+
 function greeting(name){
     console.log(`Hello ${name}! How are you?`);
 }
-greeting(`Anna`);
+greeting(`Anna`); // please consider to use single or double quotes for simple strings
 
 const Lecture3 = {
     dataType: `string, number, boolean`,
@@ -13,4 +15,4 @@ const Lecture3 = {
     }
 
 };
-console.log(Lecture3.show);
+console.log(Lecture3.show()); // don't forget to add parentheses to call a function
