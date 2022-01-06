@@ -1,0 +1,15 @@
+1. a=2;
+2. b=undefined (3);
+3. c=error (undefined);
+4. a=2
+5. b=5
+6. c=undefined
+7. a=7
+8. b=8
+9. c=6
+10. a=2
+11. b=8 (5)
+12. c=6 (7)
+13. a=2
+14. b=undefined (8)
+15. c=4
