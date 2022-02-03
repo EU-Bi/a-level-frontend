@@ -38,3 +38,23 @@ for (let i = 0; i < uniqueCountries.length; i++) {
     // for( let i = 0; i = arrKeys.length; i++){
     //     if()
     //}
+
+    
+// Actually it's not exactly what aws in the HW, but looks interesting. Good job!
+// However, please consider to:
+
+const countriesData = {};
+
+for (const key in citiesAndCountries) {
+  // check if property is in the object
+  if (!countriesData[citiesAndCountries[key]]) {
+    // if not
+    // set a new array with initial value
+    countriesData[citiesAndCountries[key]] = [key];
+  } else {
+    // add new value to existing property
+    countriesData[citiesAndCountries[key]].push(key);
+  }
+}
+
+console.log(countriesData);
