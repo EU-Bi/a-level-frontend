@@ -7,7 +7,7 @@ function getMinValue(value1, value2){
     if (value1<value2){
         result = value2;
     }
-    if(value1==value2){
+    if(value1===value2){ // please use strict comparing
         console.log(`value is equal`);
     }
     console.log(result);
@@ -25,10 +25,12 @@ function getMinValue(value1, value2, ...value_n){
 }
 getMinValue(3, 5,136,4,-5,-16);
 function joinObjects(obj1, obj2){
-    let result = console.log(Object.assign(obj1, obj2));
+    let result = console.log(Object.assign(obj1, obj2)); // you also can use spread operator. For example, {...obj1, ...obj2}
     return result;
 }
 let obj1 = {name: 'Joe'};
 let obj2 = {age: 25};
 
 joinObjects(obj1, obj2);
+
+// Where is Task 3?
