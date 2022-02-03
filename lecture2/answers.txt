@@ -8,4 +8,5 @@
 8. 4
 9. 5
 10. undefined
-11. error
+11. 4
+12. error
